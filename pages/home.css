@@ -1,0 +1,36 @@
+body {
+    width: 700px;
+}
+
+.welcome {
+    margin-bottom: 10px;
+}
+
+.intro {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.intro * {
+    margin: 0;
+}
+
+.profile-pic {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.title {
+    font-weight: bold;
+}
+
+.category {
+    margin-top: 20px;
+    text-decoration: underline;
+}
